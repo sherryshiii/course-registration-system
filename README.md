@@ -14,13 +14,16 @@ This is a C++ course registration system that supports:
 
 ## Project Structure
 ```text
-src/
- ├── course_registration.cpp   # Main program code
- ├── course_registration.h     # Header file
-data/
- ├── courses.txt               # Course information
- ├── enrollment.txt            # Student enrollment information
-README.md
+.
+├── .gitignore
+├── LICENSE
+├── README.md
+├── src/
+│   ├── course_registration.cpp
+│   └── course_registration.h
+├── data/
+│   ├── courses.txt
+│   └── enrollment.txt
 ```
 ## Compile and Run
 **In the terminal**:
@@ -43,9 +46,9 @@ Enter enrollment filename : data/enrollment.txt
   5. Exit
 ```
 **Example Behavior**:
-Successful registration → Shows Registration succeed!
-Course full → Shows You are on the waitlist
-Cancellation → The first student from the waitlist is automatically promoted
+Successful registration → Shows Registration succeed!  
+Course full → Shows You are on the waitlist  
+Cancellation → The first student from the waitlist is automatically promoted  
 
 ## Author  
 Sherry Shi  
