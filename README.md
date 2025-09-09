@@ -21,16 +21,18 @@ data/
  ├── courses.txt               # Course information
  ├── enrollment.txt            # Student enrollment information
 README.md
-```text
+```
 ## Compile and Run
 **In the terminal**:
 ```bash
 g++ src/course_registration.cpp -o registration
 ./registration
+```
 **At runtime, provide the file names**:
 ```text
 Enter course filename : data/courses.txt
 Enter enrollment filename : data/enrollment.txt
+```
 **After running, the program shows the menu**:
 ```text
 ================= MENU =================
@@ -39,6 +41,7 @@ Enter enrollment filename : data/enrollment.txt
   3. Course cancellation            # Cancel a course (waitlist auto-promotion)
   4. Print enrollment list          # Print all courses with students
   5. Exit
+```
 **Example Behavior**:
 Successful registration → Shows Registration succeed!
 Course full → Shows You are on the waitlist
