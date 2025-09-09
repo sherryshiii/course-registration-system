@@ -45,7 +45,7 @@ Enter enrollment filename : data/enrollment.txt
   4. Print enrollment list          # Print all courses with students
   5. Exit
 ```
-**Example Behavior**:
+**Example Behavior**:  
 Successful registration → Shows Registration succeed!  
 Course full → Shows You are on the waitlist  
 Cancellation → The first student from the waitlist is automatically promoted  
