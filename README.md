@@ -21,7 +21,7 @@ data/
  ├── courses.txt               # Course information
  ├── enrollment.txt            # Student enrollment information
 README.md
-
+```text
 ## Compile and Run
 **In the terminal**:
 ```bash
